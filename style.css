@@ -1,0 +1,110 @@
+html, head, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.header{
+    
+}
+.sidebar{
+    float: left;
+    width: 30%;
+}
+.content{
+    float: left;
+    width: 70%;
+}
+.row::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.avatar{
+    width: auto;
+    height: 200px;
+}
+.userinfo{
+    text-align: center;
+    background-image: url('./mountains-best-for-desktop-background-wallpaper-preview.jpeg');
+    background-size: cover;
+    background-position: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 150px;
+    margin-bottom: 80px;
+}
+.avatar-block{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 1px 10px 3px #fff; 
+    box-shadow: 0px 1px 10px 3px #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('./Ryan-Reynolds-in-Deadpool.jpeg');
+    background-size: cover;
+    background-position-x: center; 
+    margin-top: 100px;
+}
+.username{
+    font-size: 38px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.contacts, .name{
+    text-align: center;
+}
+.contacts p{
+    display: inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.contacts p:hover{
+    color: #777;
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: #777;
+}
+
+.education li, .exp li{
+    list-style-type: none;
+    color: #777;
+}
+
+.education li:first-child{
+    font-weight: 600;
+}
+
+.content>.title{
+    text-align: left;
+}
+.work{
+    color: #777;
+}
+.org-name{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+.work small{
+    margin-left: 10px;
+}
+.work p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.work ul{
+    margin-top: 0px;
+}
+
+.content .title, .work{
+    margin-left: 50px;
+} 
